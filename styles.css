@@ -1,0 +1,99 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('spiderman-background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content h2 {
+    font-size: 36px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.gallery {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.gallery h2 {
+    font-size: 36px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    margin: 10px;
+    max-width: 300px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px 0;
+}
